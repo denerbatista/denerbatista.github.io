@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* main{
+    display: flex;
+    padding: auto;
+    justify-items: center;
+  max-width: 100%;
+  height: auto;
+
+} */
+#biblia {
+  display: flex;
+  justify-items: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.dailyVerses.bibleText {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2%;
+}
+
+.dailyVerses.bibleVerse {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1%;
+}
+
+#alterar{
+    display: flex;
+    justify-content: center; 
+}
+
+#social{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+    /* bottom: 0; */
+    background-color: blue;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    /* text-align: center; */
+    line-height: 100px;
+}

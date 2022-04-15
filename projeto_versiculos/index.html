@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/img/biblia.png" alt="Banner bíblia" id="biblia">
+    </header>
+    <main>
+        <section>
+            <div id="dailyVersesWrapper"></div>
+            <script async defer src="https://dailyverses.net/get/random.js?language=nvi-pt"></script>
+        </section>
+
+        <section id="alterar">
+            <button onClick="window.location.reload();">Mudar versiculo</button>
+        </section>
+
+        <section id="social">
+            <button class="button" id="facebook">Facebook</button>
+            <button class="button" id="whatsapp">WhatsApp</button>
+            <button class="button" id="instagram">instagram</button>
+        </section>
+
+    </main>
+    <footer>Projeto desenvolvido por : Dener Batista</footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
