@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/background.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  /* font-size: 2rem; */
+}
+
+header {
+  /* border-width: 3rem; */
+  border: solid rgb(0, 4, 10);
+  background-color: rgba(0, 2, 6, 0.652);
+  width: 100%;
+  text-align: center;
+}
+
+ #bloco{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 25px;
+}
+
+h2 {
+    border-radius: 3rem;
+    background-color: rgb(247, 249, 253);
+    border: solid black;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+  
+  }
+
+figure #imagem {
+  width: 60vw;
+  height: 60vh;
+  border-color: black;
+  box-shadow: 5px black;
+}
+
+#alterar {
+  border-radius: 3rem;
+  font-size: 2rem;
+  padding: 1rem;
+  border: solid black;
+}
+#alterar:hover{
+    background-color: gray;
+    font-size: 250%;
+}
+
+
+#social {
+    display: flex;
+    flex-direction: row;
+      border-radius: 3rem;
+      width: 100%;
+      padding: 0.7rem;
+      justify-content: center;
+      gap: 15px;
+      align-items: center;
+}
+
+footer {
+  background-color: rgba(0, 2, 6, 0.652);
+  /* width: 100%; */
+  /* text-align: center; */
+  font-size: 1.5rem;
+  bottom: 0;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        padding: 1.4rem;
+        border: solid rgb(0, 4, 10);
+}
