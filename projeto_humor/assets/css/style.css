@@ -67,12 +67,12 @@ figure #imagem {
 #social {
     display: flex;
     flex-direction: row;
-      border-radius: 3rem;
-      width: 100%;
-      padding: 0.7rem;
-      justify-content: center;
-      gap: 15px;
-      align-items: center;
+    flex-wrap: wrap;
+    border-radius: 3rem;
+    width: 100%;
+    padding: 0.7rem;
+    justify-content: center;
+    align-items: center;
 }
 
 
