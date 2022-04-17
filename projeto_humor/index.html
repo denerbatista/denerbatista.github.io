@@ -14,11 +14,19 @@
       content="https://denerbatista.github.io/projeto_humor/assets/img/social.png"
     />
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="400" />
-    <meta property="og:image:height" content="300" />
+    <meta property="og:image:width" content="1570" />
+    <meta property="og:image:height" content="752" />
+    <link rel="shortcut icon" type="imagex/png" href="https://cdn.discordapp.com/attachments/947324026236330018/965343050052296744/image.ico">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Jogo do Humor</title>
   </head>
+  <audio  autoplay>
+    <source
+      src="https://cdn.discordapp.com/attachments/947324026236330018/965153686504497152/sorridente.mp3"
+      type="audio/mp3"
+      id="music"
+    />
+  </audio>
   <body>
     <header>
       <h1>Jogo do Humor</h1>
@@ -40,33 +48,18 @@
       <button id="alterar" onclick="alterar()">Mudar Humor</button>
 
       <div id="social">
-        <a
-          href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftekeye.uk%2F"
-          ><img src="assets\img\social-buttons\face-but.png"
-        /></a>
-        <a
-          href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftekeye.uk%2F"
-          ><img src="assets\img\social-buttons\face-but.png"
-        /></a>
-        <a
-          href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftekeye.uk%2F"
-          ><img src="assets\img\social-buttons\face-but.png"
-        /></a>
-        <a
-          href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftekeye.uk%2F"
-          ><img src="assets\img\social-buttons\face-but.png"
-        /></a>
+
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdenerbatista.github.io%2Fprojeto_humor" target="_blank" ><img src="https://cdn.discordapp.com/attachments/947324026236330018/965318989729382400/face-but.png" id="facebook" onmouseover="facebook.src='https://cdn.discordapp.com/attachments/947324026236330018/965318681565466755/face-but-hov.png';" onmouseout="facebook.src='https://cdn.discordapp.com/attachments/947324026236330018/965318989729382400/face-but.png';"/></a>
+        <a href="https://twitter.com/share?url=https%3A%2F%2Fdenerbatista.github.io%2Fprojeto_humor" target="_blank"><img src="https://cdn.discordapp.com/attachments/947324026236330018/965320080764321872/tweet-but.png" id="tweeter" onmouseover="tweeter.src='https://cdn.discordapp.com/attachments/947324026236330018/965320099248619610/tweet-but-hov.png';" onmouseout="tweeter.src='https://cdn.discordapp.com/attachments/947324026236330018/965320080764321872/tweet-but.png';"/></a>
+        <a href="https://www.reddit.com/submit?url=https%3A%2F%2Fdenerbatista.github.io%2Fprojeto_humor" target="_blank"><img src="https://cdn.discordapp.com/attachments/947324026236330018/965320229230108742/reddit-but.png" id="reddit" onmouseover="reddit.src='https://cdn.discordapp.com/attachments/947324026236330018/965320261559795742/reddit-but-hov.png';" onmouseout="reddit.src='https://cdn.discordapp.com/attachments/947324026236330018/965320229230108742/reddit-but.png';"/></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdenerbatista.github.io%2Fprojeto_humor" target="_blank"><img src="https://cdn.discordapp.com/attachments/947324026236330018/965320136024289341/linkin-but.png" id="linkedin" onmouseover="linkedin.src='https://cdn.discordapp.com/attachments/947324026236330018/965320190231449641/linkin-but-hov.png';" onmouseout="linkedin.src='https://cdn.discordapp.com/attachments/947324026236330018/965320136024289341/linkin-but.png';"/></a>
+        <a href="mailto:?subject=I%20saw%20this&body=https%3A%2F%2Fdenerbatista.github.io%2Fprojeto_humor"><img src="https://cdn.discordapp.com/attachments/947324026236330018/965320289665830982/email-but.png" target="_blank" id="email" onmouseover="email.src='https://cdn.discordapp.com/attachments/947324026236330018/965320308682784828/email-but-hov.png';" onmouseout="email.src='https://cdn.discordapp.com/attachments/947324026236330018/965320289665830982/email-but.png';"/></a>
+        <a href="javascript:;" onclick="window.print()"><img src="https://cdn.discordapp.com/attachments/947324026236330018/965320346297307156/print-but.png" target="_blank" id="printer"onmouseover="printer.src='https://cdn.discordapp.com/attachments/947324026236330018/965320359584890920/print-but-hov.png';" onmouseout="printer.src='https://cdn.discordapp.com/attachments/947324026236330018/965320346297307156/print-but.png';"/></a>
+
       </div>
     </main>
-    <footer>Desenvolvido por: Dener Batista</footer>
-    <audio autoplay="true">
-      <source
-        src="https://cdn.discordapp.com/attachments/947324026236330018/965153686504497152/sorridente.mp3"
-        type="audio/mp3"
-        loop="true"
-        id="music"
-      />
-    </audio>
+    <footer>Desenvolvido por:  <a href="">Dener Batista</a></footer>
+
   </body>
   <script type="text/javascript" src="./assets/js/script.js"></script>
 </html>

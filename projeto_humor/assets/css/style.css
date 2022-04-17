@@ -9,6 +9,7 @@
 main {
   width: 100vw;
   height: 100vh;
+  border: solid rgb(0, 4, 10);
   background: url(../img/background.jpg);
   background-size: cover;
   display: flex;
@@ -22,7 +23,7 @@ header {
   /* border-width: 3rem; */
   border: solid rgb(0, 4, 10);
   background-color: rgba(0, 2, 6, 0.652);
-  width: 100%;
+  width: 100vw;
   text-align: center;
 }
 
@@ -74,15 +75,13 @@ figure #imagem {
       align-items: center;
 }
 
+
 footer {
   background-color: rgba(0, 2, 6, 0.652);
-  /* width: 100%; */
-  /* text-align: center; */
   font-size: 1.5rem;
   bottom: 0;
-        position: relative;
-        width: 100%;
-        text-align: center;
-        padding: 1.4rem;
-        border: solid rgb(0, 4, 10);
+  position: relative;
+  width: 100vw;
+  text-align: center;
+  border: solid rgb(0, 4, 10);
 }
